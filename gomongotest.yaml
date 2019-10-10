@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: go-mongo-test
-          image: "jerrymannel/gomongotest:1"
+          image: "jerrymannel/gomongotest:1.13"
           env:
             - name: URL
               value: "mongodb://localhost:27017"
