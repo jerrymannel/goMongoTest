@@ -2,7 +2,7 @@
 # Go building
 ###############################################################################################
 
-FROM golang AS build
+FROM golang:1.10 AS build
 
 WORKDIR /
 
