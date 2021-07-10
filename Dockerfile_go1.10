@@ -20,4 +20,4 @@ FROM alpine:3
 
 COPY --from=build /goMongoTest-x86 /
 
-ENTRYPOINT ["./goMongoTest-x86"]
+ENTRYPOINT ["sh", "goMongoTest-x86"]

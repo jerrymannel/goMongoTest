@@ -14,3 +14,5 @@
 goMongoTest-macos
 goMongoTest-win32.exe
 goMongoTest-x86
+
+testCursor
